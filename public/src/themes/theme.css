@@ -1,0 +1,146 @@
+header .review{
+    background-color: var(--header-color);
+    color: white;
+}
+
+header .review .star-container svg{
+    margin-top: -7px !important;
+}
+
+header .lawyer{
+    background-color: var(--header-color-light);
+    color: white;
+}
+
+header nav{
+    background-color: var(--header-color);
+    color: white;
+    z-index: 99999;
+}
+
+header nav button{
+    background-color: transparent;
+    color: white !important;
+}
+
+header nav button.active, header nav button:hover{
+    background-color: var(--header-color-lightly) !important;
+}
+
+header .dropdown{
+    z-index: 999999;
+}
+
+header .dropdown .dropdown-menu{
+    background-color: var(--header-color) !important;
+}
+
+header .dropdown .dropdown-item{
+    color: white !important;
+}
+
+header .dropdown .dropdown-item:hover{
+    background-color: var(--header-color-light) !important;
+}
+
+header .dropdown .dropdown-item.active{
+    background-color: var(--header-color-lightly) !important;
+}
+
+footer{
+    background-color: var(--header-color);
+    color: white;
+}
+
+.text-orange{
+    color: var(--highlight-color) !important;
+}
+
+.btn.btn-orange{
+    color: white;
+    background-color: var(--highlight-color);
+}
+
+.btn.btn-orange:hover{
+    color: white;
+    background-color: var(--highlight-color-faded);
+}
+
+.btn.btn-outline-orange{
+    color: var(--highlight-color);
+    background-color: transparent;
+    border: 1px solid var(--highlight-color);
+}
+
+.btn.btn-outline-orange:hover{
+    color: white;
+    background-color: var(--highlight-color);
+}
+
+.btn.btn-primary, .page-link{
+    background-color: var(--header-color);
+    border-color: var(--header-color);
+}
+
+.btn.btn-outline-primary{
+    color: var(--header-color);
+    border-color: var(--header-color);
+}
+
+.btn.btn-primary:hover, .btn.btn-outline-primary:hover{
+    background-color: var(--header-color-light);
+    border-color: var(--header-color-light);
+}
+
+.btn.btn-outline-primary:hover{
+    color: white;
+}
+
+.pagination .page-item .page-link{
+    color: var(--header-color);
+}
+
+.pagination .page-item.active .page-link{
+    color: white;
+    background-color: var(--header-color);
+    border-color: var(--header-color);
+}
+
+.bg-primary{
+    background-color: var(--header-color) !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+input[type=date], input[type=time]{
+    position: relative;
+    user-select: none;
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1rem;
+}
+
+input[type="date"] {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23888' viewBox='0 0 24 24'%3E%3Cpath d='M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H5V8h14v13z'/%3E%3C/svg%3E");
+}
+
+input[type="time"] {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23888' viewBox='0 0 24 24'%3E%3Cpath d='M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22zm1 11.59l3.7 2.13-.75 1.3L11 13V6h2v6.59z'/%3E%3C/svg%3E");
+}
+  
+input[type=date]::-webkit-calendar-picker-indicator, input[type=time]::-webkit-calendar-picker-indicator{
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: auto;
+    z-index: 2000;
+}
